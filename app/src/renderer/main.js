@@ -5,7 +5,7 @@ import Router from 'vue-router'
 import App from './App'
 
 import 'jquery/dist/jquery.min.js'
-import all from '../../asset/css/all.css'
+// import all from '../../asset/css/all.css'
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
 import bootstrapJS from 'bootstrap/dist/js/bootstrap.min.js'
 

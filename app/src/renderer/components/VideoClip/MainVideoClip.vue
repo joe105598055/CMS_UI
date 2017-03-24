@@ -64,51 +64,26 @@
             </div>
         </div>
 
-        <div class="btn-group">
-            <button type="button" class="list-group-item" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
-                          ZOO
-                          <button type = "button"  class="close pull-left" style="margin-right:5px">&times&nbsp</button>
-            <span class="badge">5:30</span>
-            </button>
-            <button type="button" data-toggle="dropdown" class="close pull-right" style="margin-left:2%">···</button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-            </ul>
-
-            <div id="collapseThree" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item" style="padding-left:6%"><a>English</a></li>
-                    <li class="list-group-item" style="padding-left:6%"><a>Spanish</a></li>
-                    <li class="list-group-item" style="padding-left:6%"><a>Taiwanese</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="btn-group">
-            <button class="btn btn-default" type="button" data-toggle="collapse" href="#test">Default</button>
-            <div id="test" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item" style="padding-left:6%"><a>English</a></li>
-                    <li class="list-group-item" style="padding-left:6%"><a>Spanish</a></li>
-                    <li class="list-group-item" style="padding-left:6%"><a>Taiwanese</a></li>
-                </ul>
-            </div>
-            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button"><span class="caret"></span>
-      	  </button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+        <div class="btn-group-info list-group-item">
+            <button class=" btn btn-info " style=" width: 90%;" type=" button " data-toggle="collapse" href="#collapseTT"><a style="text-align:left"> Nemo</a> <span class="badge">5:30</span></button>
+            <span type="button " class="close pull-left " style="margin-right:5px ">&times&nbsp</span>
+            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle pull-right" type="button">···</button>
+            <ul class="dropdown-menu pull-right">
+                <li><a href="# ">Action</a></li>
+                <li><a href="# ">Another action</a></li>
+                <li><a href="# ">Something else here</a></li>
+                <li><a href="# ">Separated link</a></li>
             </ul>
         </div>
-
-        <div class="tracklist-wrapper">
+        <div id="collapseTT" class="panel-collapse collapse ">
+            <ul class="list-group ">
+                <li class="list-group-item " style="padding-left:6% "><a>English</a></li>
+                <li class="list-group-item " style="padding-left:6% "><a>Spanish</a></li>
+                <li class="list-group-item " style="padding-left:6% "><a>Taiwanese</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="tracklist-wrapper">
             <table class="current playing tracklist-playlist">
                 <tbody>
                     <tr class="tl-row">
@@ -128,11 +103,12 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> -->
 
-    </div>
 
-    <!-- <li class="list-group-item selected navlist" id="navlist">
+</div>
+
+<!-- <li class="list-group-item selected navlist" id="navlist">
             <a href="#" id="active">Let it go</a>
             <button type = "button"  class="close pull-left">&times&nbsp</button>
             <button type = "button"  class="close pull-right">&nbsp&nbsp‧‧‧</button>
